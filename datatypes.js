@@ -94,3 +94,18 @@ console.log(`Laptop property: ${laptop[laptopProperty]}`);
 
 laptopProperty = "model";
 console.log(`Laptop property: ${laptop[laptopProperty]}`);
+
+// Adding a property
+laptop.weight = "4kgs";
+console.log(laptop);
+
+// Reassign a value
+laptop.price = 45000;
+console.log(laptop);
+
+// Deleting a property
+delete laptop.weight;
+console.log(laptop);
+
+delete laptop.weight;
+console.log(laptop);
