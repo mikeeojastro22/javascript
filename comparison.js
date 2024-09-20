@@ -48,7 +48,7 @@ console.log(39 <= 40); // true
 
 console.log("=================================");
 // Equality
-// == - checks the value regardless of data
+// == - checks the value regardless of data type
 // === - also checks the data type
 
 console.log(4 == '4'); // true
